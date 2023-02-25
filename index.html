@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="assets/favicon.ico" rel="shortcut icon" />
+		<link rel="stylesheet" href="css/owfont-regular.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Momentum</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__player player hide">
+					<div class="player__container-audio container-audio">
+						<div class="player__song-name song-name"></div>
+						<div class="player__player-controls player-controls">
+							<button class="player-controls__play-prev play-prev player-icon"></button>
+							<button class="player-controls__play play player-icon"></button>
+							<button class="player-controls__play-next play-next player-icon"></button>
+						</div>
+						<div class="player__bars bars">
+							<div class="player__song-time song-time">
+								<div class="player__current-time current-time"></div>
+								<p> / </p>
+								<div class="player__duration-time duration-time"></div>
+								<input type="range" id="progress-bar" min="0" step="0.1" class="player__range-input">
+							</div>
+							<div class="player__volume volume">
+								<div class="container__volume-bar">
+									<input type="range" id="volume-bar" min="0" max="100" value="100" class="player__volume-input">
+								</div>
+								<button class="player__mute mute"></button>
+							</div>
+						</div>
+					</div>
+					<ul class="player__play-list play-list"></ul>
+				</div>
+				<div class="header__weather weather hide">
+					<input type="text" class="weather__city city" />
+					<i class="weather__weather-icon weather-icon owf"></i>
+					<div class="weather__weather-error weather-error"></div>
+					<div class="weather__description-container description-container">
+						<span class="description-container__temperature temperature"></span>
+						<span class="description-container__weather-description weather-description"></span>
+					</div>
+					<div class="weather__wind wind"></div>
+					<div class="weather__humidity humidity"></div>
+				</div>
+			</header>
+			<main class="main">
+				<div class="main__slider-icons slider-icons">
+					<button class="slider-icons__slide-prev slide-prev slider-icon"></button>
+					<button class="slider-icons__slide-next slide-next slider-icon"></button>
+				</div>
+				<time class="main__time time hide"></time>
+				<date class="main__date date hide"></date>
+				<div class="main__greeting greeting hide">
+					<span class="greeting__greeting-text greeting-text"></span>
+					<input type="text" class="greeting__name name" />
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__settings settings">
+					<div class="footer__settings-opener settings-opener"></div>
+				</div>
+				<div class="footer__quotes quotes hide">
+					<div class="quotes__change-quote change-quote">
+						<div class="quotes__block block">
+							<div class="quotes__quote quote"></div>
+							<div class="quotes__author author"></div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__todo todo hide">
+					<button class="footer__todo-opener todo-opener"></button>
+				</div>
+			</footer>
+
+			<div class="container-todo">
+				<div class="todo-header">
+					<span class="todo-header-name"></span>
+					<button class="todo-closer"></button>
+				</div>
+				<ul class="todo-list">
+				</ul>
+				<input type="text" class="todo-add" placeholder="+New Todo">
+			</div>
+
+			<div class="settings-modal close-settings">
+				<div class="container-settings">
+					<div style="display: none;" class="container-source">
+						<h3 class="source-header"></h3>
+						<div class="button-wrapper">
+							<button class="source" data-source="github" id="github">
+								GitHub
+							</button>
+							<button class="source" data-source="unsplash" id="unsplash">
+								Unsplash API
+							</button>
+							<button class="source" data-source="flickr" id="flickr">
+								Flickr API
+							</button>
+							<input type="text" class="tag" placeholder="image tag...">
+						</div>
+					</div>
+					<div style="display: none;" class="container-blocks">
+						<h3 class="blocks-header"></h3>
+						<div class="button-wrapper">
+							<button class="hide-weather"></button>
+							<button class="hide-time"></button>
+							<button class="hide-date"></button>
+							<button class="hide-greeting"></button>
+							<button class="hide-quotes"></button>
+							<button class="hide-player"></button>
+							<button class="hide-todo"></button>
+						</div>
+					</div>
+					<div class="container-lang">
+						<h3 class="lang-header"></h3>
+						<div class="button-wrapper">
+							<button class="lang-changer"></button>
+						</div>
+					</div>
+					<div class="lang__bottom bottom-lang">
+						<a target="_blank" href="https://github.com/StanislavKhurtov" class="bottom-lang__link"><img src="./assets/svg/github_icon.svg" alt=""></a>
+						<p class="bottom-lang__text">&#169 2023</p>
+						<a target="_blank" href="https://rs.school/" class="bottom-lang__logo"><img src="./assets/svg/logo-rsschool3.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bg"></div>
+		<script src="./bundle.js"></script>
+	</body>
+
+</html>
