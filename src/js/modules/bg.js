@@ -48,7 +48,7 @@ function setBg() {
     }
 
     if (state.photoSource == 'github') {
-        img.src = `https://github.com/StanislavKhurtov/stage1-tasks/tree/main/images/${tag}/${bgNum}.webp`;
+        img.src = `https://raw.githubusercontent.com/StanislavKhurtov/stage1-tasks/main/images/${tag}/${bgNum}.webp`;
     }
 
     removeListener(slideNext, getSlideNext);
