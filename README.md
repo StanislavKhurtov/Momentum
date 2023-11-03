@@ -1,6 +1,8 @@
-# Momentum
+# [**Momentum**](https://momentum-project-case.netlify.app/)
 Momentum is an analog of the eponymous Chrome extension for an internet store. The application displays the time and the user's name. The background image and greeting change depending on the time of day.
 The application includes clocks, an image slider, weather widgets, an audio player, a quote of the day block, and settings. Local storage is used to store the user's name and location.
+
+<img src="././assets/img/Wallpaper.png"/>
 
 ## Key Skills:
 
