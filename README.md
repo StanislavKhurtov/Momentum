@@ -25,7 +25,7 @@ Working with asynchronous requests
 
  ## Technologies
 - JavaScript
-- HCSS
+- HTML,CSS
 - Webpack
 
 ## Utilization
