@@ -4,14 +4,14 @@ The application includes clocks, an image slider, weather widgets, an audio play
 
 ## Key Skills:
 
-Methods for finding elements
-Data output to the page
-Working with date and time
-Working with audio
-Saving data to local storage
-Using recursive setTimeout
-Dividing JavaScript code into modules
-Working with asynchronous requests
+- Methods for finding elements
+- Data output to the page
+- Working with date and time
+- Working with audio
+- Saving data to local storage
+- Using recursive setTimeout
+- Dividing JavaScript code into modules
+- Working with asynchronous requests
 
 ## Application Functionality
 
