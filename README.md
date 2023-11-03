@@ -1,18 +1,17 @@
 # Momentum
-### Momentum is an analog of the eponymous Chrome extension for an internet store. The application displays the time and the user's name. The background image and greeting change depending on the time of day.
-
-### The application includes clocks, an image slider, weather widgets, an audio player, a quote of the day block, and settings. Local storage is used to store the user's name and location.
+Momentum is an analog of the eponymous Chrome extension for an internet store. The application displays the time and the user's name. The background image and greeting change depending on the time of day.
+The application includes clocks, an image slider, weather widgets, an audio player, a quote of the day block, and settings. Local storage is used to store the user's name and location.
 
 ## Key Skills:
 
-### Methods for finding elements
-### Data output to the page
-### Working with date and time
-### Working with audio
-### Saving data to local storage
-### Using recursive setTimeout
-### Dividing JavaScript code into modules
-### Working with asynchronous requests
+Methods for finding elements
+Data output to the page
+Working with date and time
+Working with audio
+Saving data to local storage
+Using recursive setTimeout
+Dividing JavaScript code into modules
+Working with asynchronous requests
 
 ## Application Functionality
 
@@ -31,7 +30,7 @@
 
 ## Использование
 
-[Momentum]([https://www.gatsbyjs.com/](https://stanislavkhurtov.github.io/Momentum/)https://stanislavkhurtov.github.io/Momentum/) 
+### [**Momentum**](https://momentum-project-case.netlify.app/)
 
 ## Источники
 
