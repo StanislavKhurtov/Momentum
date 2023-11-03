@@ -27,7 +27,7 @@ The application includes clocks, an image slider, weather widgets, an audio play
 
  ## Technologies
 - JavaScript
-- HTML,CSS
+- HTML,SCSS
 - Webpack
 
 ## Utilization
