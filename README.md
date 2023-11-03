@@ -25,12 +25,12 @@ Working with asynchronous requests
 
  ## Technologies
 - JavaScript
-- SCSS
+- HCSS
 - Webpack
 
-## Использование
+## Utilization
 
 ### [**Momentum**](https://momentum-project-case.netlify.app/)
 
-## Источники
+## Sources
 
